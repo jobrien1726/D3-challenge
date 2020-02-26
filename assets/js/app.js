@@ -93,7 +93,7 @@ function renderText(abbrGroup, newXScale, chosenXAxis, newYScale, chosenYAxis) {
     abbrGroup.transition()
       .duration(1000)
       .attr("x", d => newXScale(d[chosenXAxis]))
-      .attr("y", d => newYScale(d[chosenYAxis]))
+      .attr("y", d => (newYScale(d[chosenYAxis] - .5)));
   
     return abbrGroup;
 }
@@ -191,7 +191,7 @@ d3.csv("assets/data/data.csv").then(function(data, err) {
         .enter()
         .append("text")
         .attr("x", d => xLinearScale(d[chosenXAxis]))
-        .attr("y", d => yLinearScale(d[chosenYAxis]))
+        .attr("y", d => (yLinearScale(d[chosenYAxis] - .5)))
         .text(d => d.abbr)
         .attr("class", "stateText");
 
