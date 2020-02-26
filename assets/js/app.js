@@ -336,6 +336,9 @@ d3.csv("assets/data/data.csv").then(function(data, err) {
                 // updates circles with new x values
                 circlesGroup = renderCircles(circlesGroup, xLinearScale, chosenXAxis, yLinearScale, chosenYAxis);
 
+                // updates abbr w new y values
+                abbrGroup = renderText(abbrGroup, xLinearScale, chosenXAxis, yLinearScale, chosenYAxis);
+
                 // updates tooltips with new info
                 // circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
                 
