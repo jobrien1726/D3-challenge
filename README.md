@@ -1,4 +1,4 @@
-# D3-challenge
+# The Health-Poverty Trap
 
 
 ## Project Overview
