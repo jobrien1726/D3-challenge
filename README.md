@@ -27,18 +27,18 @@ The user is able to choose from the following combinations:
 
 - Healthcare vs. Poverty 
 
-             vs. Age 
+        Healthcare vs. Age 
              
-             vs. Income 
+        Healthcare vs. Income 
            
 - Smokers vs. Poverty
 
-          vs. Age
+         Smokers vs. Age
           
-          vs. Income
+         Smokers vs. Income
         
 - Obesity vs. Poverty
 
-        vs. Age
+       Obesity vs. Age
         
-        vs. Income
+       Obesity vs. Income
