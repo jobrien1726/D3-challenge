@@ -25,14 +25,14 @@ Note: The HTML page must be run on a local host (localhost:8000).
 This visualization allows the user to interact with the chart by choosing one of three parameters along each axis to plot. So there are actually 9 plots in 1!
 The user is able to choose from the following combinations:
 
-- Healthcare vs. Poverty
-           vs. Age
-           vs. Income
+- Healthcare vs. Poverty <br/>
+             vs. Age <br/>
+             vs. Income <br/>
            
-- Smokers vs. Poverty
-        vs. Age
-        vs. Income
+- Smokers vs. Poverty <br/>
+        vs. Age <br/>
+        vs. Income <br/>
         
-- Obesity vs. Poverty
-        vs. Age
-        vs. Income
+- Obesity vs. Poverty <br/>
+        vs. Age <br/>
+        vs. Income <br/>
